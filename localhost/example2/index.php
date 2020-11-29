@@ -1,4 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Title");
-?>Hello World 2!<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+$APPLICATION->SetTitle("Наша супер страница");
+var_dump(\Bitrix\Main\Config\Configuration::getValue('exception_handling'));
+?>
+Hello World 2!
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
